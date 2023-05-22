@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <conio.h>
 
-const char* rock_paper_scissors(char p1, char p2){
+const char* rock_paper_scissors(char p1, char p2){ // Returns pointers to strings for each possible outcome of the game
 
     if((p1 != 'r' && p1 != 's' && p1 != 'p') || (p2 != 'r' && p2 != 's' && p2 != 'p')) return "Invalid entry"; //If either p1 or p2 holds an inadmissible character
 
@@ -18,7 +18,7 @@ int main(){
 
     printf("r -> ROCK; p -> PAPER; s -> SCISSOR\n\n");
 
-        printf("P1: "); p1 = getch();
+        printf("P1: "); p1 = getch(); //getch() is used to hide the input of the first player from the second player
         printf("\nP2: "); p2 = getch();
 
         printf("\n");
