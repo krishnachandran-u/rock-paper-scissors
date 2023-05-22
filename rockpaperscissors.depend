@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1684489776 source:d:\kichu\newfolder\rockpaperscissors\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
